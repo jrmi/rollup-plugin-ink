@@ -1,0 +1,44 @@
+{
+  "name": "rollup-plugin-ink",
+  "version": "1.0.0",
+  "description": "A rollup plugin to convert .ink file to ES Modules.",
+  "main": "rollup-plugin-ink.js",
+  "type": "module",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jrmi/rollup-plugin-ink.git"
+  },
+  "keywords": [
+    "rollup",
+    "ink",
+    "interactive",
+    "fiction",
+    "plugin"
+  ],
+  "author": "Jérémie Pardou",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jrmi/rollup-plugin-ink/issues"
+  },
+  "homepage": "https://github.com/jrmi/rollup-plugin-ink#readme",
+  "dependencies": {
+    "@rollup/pluginutils": "^4.1.2",
+    "temp": "^0.9.4"
+  },
+  "devDependencies": {
+    "eslint": "^8.6.0",
+    "eslint-config-prettier": "^8.3.0",
+    "jest": "^27.4.5",
+    "jest-esm-transformer": "^1.0.0",
+    "prettier": "^2.5.1"
+  },
+  "jest": {
+    "transform": {
+      ".js": "jest-esm-transformer"
+    }
+  }
+}
