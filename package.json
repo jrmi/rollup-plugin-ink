@@ -1,6 +1,6 @@
 {
   "name": "rollup-plugin-ink",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A rollup plugin to convert .ink file to ES Modules.",
   "main": "rollup-plugin-ink.js",
   "type": "module",
