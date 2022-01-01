@@ -54,7 +54,7 @@ const ink = (options = {}) => {
               }
               fs.readFile(tempFile, (err, data) => {
                 if (err) {
-                  this.err('Failed to parse INK file.');
+                  this.warn('Failed to parse INK file.');
                   resolve(null);
                   return;
                 }
